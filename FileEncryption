@@ -12,7 +12,6 @@ namespace FileEncryption
 {
     public class MWFileEncoder
     {
-        //thisisemmafile17
         static byte[] SALT = new byte[] { 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__, 0x__ };
 
         public static byte[] EncryptTextToBytes(string plainText, string password)
